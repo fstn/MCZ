@@ -32,6 +32,14 @@ public class Welcome extends Activity {
 		Global.finishAllRunningActivitiesExceptOne(this);
 		this.finish();
 	}
+
+	@Override
+	protected void onDestroy() {
+		Global.removeRunningActivity(this);
+		super.onDestroy();
+	}
+	
+	
 	
 	
 

@@ -14,7 +14,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/map_search"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -26,15 +26,14 @@
 
         <activity
             android:name="com.example.maps.Answer"
-            android:label="@string/title_activity_answer" >
+            android:label="@string/app_name" >
         </activity>
         <activity
             android:name="com.example.maps.Welcome"
-            android:label="@string/title_activity_welcome" >
+            android:label="@string/app_name" >
             
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

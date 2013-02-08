@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textEditDisable">#FFFFFF</color>
+    <color name="textDefaulColor">#000000</color>
+    <color name="disclamerBackground">#FFFFFF</color>
+    <color name="disclamerBorder">#AAAAAA</color>
+</resources>

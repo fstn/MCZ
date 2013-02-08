@@ -3,7 +3,7 @@
 
     <string name="app_name">Maps</string>
     <string name="hello_world">Hello world!</string>
-    <string name="menu_exit">Exit</string>
+    <string name="menu_exit">Main page</string>
     <string name="title_activity_answer">Answer</string>
     <string name="btn_popup_ok">OK</string>
     <string name="title_activity_welcome">Welcome</string>
@@ -11,7 +11,7 @@
     <string name="great_response">Well played ! Game Over</string>
     <string name="wrong_response">Try again!</string>
     
-    <string name="message_confirm_exit">Are you sure to want to quit the application ?</string>
+    <string name="message_confirm_exit">Are you sure to want to go to the main page ?</string>
     <string name="title_confirm_exit">Exit ?</string>
     
     <string name="btn_popup_yes">Yes</string>
