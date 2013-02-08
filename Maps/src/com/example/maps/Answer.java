@@ -54,7 +54,7 @@ public class Answer extends Activity {
 	public void tryAgain(View v){
 		EditText field = (EditText)findViewById(R.id.userAnswer);
 		
-		if( (Global.QUIZZ.getReponse()).equals(field.getText().toString()) ){
+		if( (Global.QUIZZ.getReponse().toUpperCase()).equals(field.getText().toString().toUpperCase()) ){
 			callPopUp(this.getString(R.string.great_response));
 			
 		}
